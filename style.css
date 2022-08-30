@@ -36,9 +36,6 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
-#list{
-  padding: 20;
-}
 .text{
   display: flex;
   flex-direction: column;
@@ -101,6 +98,11 @@ footer{
 @media (max-width: 480px) {
   body{
     background-image: url('image/king2.png');
+  }
+  #list li {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
   }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
