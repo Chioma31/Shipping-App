@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-position: center right;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+#container{
+  display: flex;
+}
+.navbar-brand {
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 30px;
+
+}
+.nav-item{
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 50px;
+}
+.nav-item:hover{
+  
+  color: skyblue;
+}
+#dropdownMenu2{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#list{
+  padding: 20;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 6% 0 0 6% ;
+  color: #0c315b;
+}
+.text h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 7vh;
+  line-height: 80px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  
+  /* text-shadow: 0 0 10px black; */
+}
+.text p{
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #0d1e31;
+}
+.text form{
+  margin-bottom: 40px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 25%;
+  
+}
+
+.text input{
+  border: 2px solid #0c315b;
+}
+footer{
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 233, 236);
+  font-size: 18px;
+}
+.item{
+  font-weight: 600;
+}
+#about{
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  body{
+    background-image: url('image/king2.png');
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  body{
+    background-image: url('image/king2.png');
+  }
+}
+@media (min-width: 1025px) {
+  body{
+    background-image: url('image/king2.png');
+ }
+}
