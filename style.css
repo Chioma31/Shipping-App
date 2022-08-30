@@ -99,9 +99,10 @@ footer{
   body{
     background-image: url('image/king2.png');
   }
-  #list li {
+  #list li{
     display: flex;
     flex-wrap: wrap;
+    width: 23rem;
     overflow: hidden;
   }
 }
